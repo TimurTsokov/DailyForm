@@ -1,11 +1,13 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 html,
 body {
     min-height: 100%;
 }
-body{
+
+body {
     background: url("../img/main-bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -14,7 +16,8 @@ body{
     font-size: 10px;
 
 }
-.main{
+
+.main {
     width: 100%;
     margin: 0 auto;
     background: #ffffff;
@@ -22,25 +25,74 @@ body{
     font-family: Arial, sans-serif;
     padding: 3em;
 }
-.content h1{
+
+.content {
+    color: #7a7b7f;
+}
+
+.content h1 {
     font-size: 2.4em;
     font-weight: 700;
     color: #1b1c1d;
     margin: 0;
 }
-.content h1>img{
+
+.content h1 > img {
     vertical-align: middle;
     padding-right: 1rem;
 }
-.content p{
+
+.content p {
     font-size: 1.3em;
-    line-height: 2em;
-    color: #7a7b7f;
+    line-height: 1.7em;
+
 }
-.content a{
+
+.content a {
     color: #ea355a;
     text-decoration: none;
     font-weight: 400;
+}
+
+form {
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+form > input {
+    border: none;
+    background: #f0f0f0;
+    padding: 0.8rem;
+    margin: 7px 6px;
+    border-radius: 3px;
+}
+
+input.half {
+    width: calc(50% - 14px);
+}
+
+input.big {
+    width: 97%;
+}
+
+form > button {
+    width: 97%;
+    border-radius: 3px;
+    background: #ea355a;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 7px 6px;
+    border: none;
+    cursor: pointer;
+}
+
+button:active, button:focus {
+    outline: none;
+    border-bottom: 2px solid #bd1962;
+}
+
+button::-moz-focus-inner {
+    border: 0;
 }
 
 
