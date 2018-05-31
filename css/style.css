@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body {
+    min-height: 100%;
+}
+body{
+    background: url("../img/main-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 170px;
+    font-size: 10px;
+
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    padding: 3em;
+}
+.content h1{
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #1b1c1d;
+    margin: 0;
+}
+.content h1>img{
+    vertical-align: middle;
+    padding-right: 1rem;
+}
+.content p{
+    font-size: 1.3em;
+    line-height: 2em;
+    color: #7a7b7f;
+}
+.content a{
+    color: #ea355a;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
