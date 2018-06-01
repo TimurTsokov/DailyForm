@@ -92,11 +92,6 @@ button:hover, button:active, button:focus {
     border-bottom: 3px solid #bd1962;
 }
 
-button::-moz-focus-inner {
-    border: 0;
-}
-
-
 
 
 
