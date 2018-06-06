@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    background: url("../img/main-bg.jpg");
+    background-image: linear-gradient(to bottom left, rgb(221, 36, 118) 0%, rgb(255, 81, 47) 100%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
